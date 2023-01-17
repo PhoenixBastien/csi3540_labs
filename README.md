@@ -1,1 +1,4 @@
-Voici un repo pour les laboratoires de CSI 3540.
+# csi3540_labs<br />
+Voici le repo des laboratoires pour le cours de CSI 3540.<br />
+Phoenix Bastien<br />
+300199469
