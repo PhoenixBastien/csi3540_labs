@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #444;
+}
+#col1 {
+    float: left;
+    width: 35%;
+}
+#col2 {
+    float: left;
+    width: 65%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#name {
+    /* padding-top: 3pt; */
+    padding-left: 20pt;
+    /* text-indent: 0pt; */
+    line-height: 0pt;
+    /* text-align: center; */
+    color: black;
+    font-family:Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 40pt;
+}
+#last {
+    color: #0072BC;
+}
+#info {
+    padding-left: 20pt;
+    /* text-indent: 0pt; */
+    line-height: 0pt;
+    /* text-align: center; */
+    color: #6A6A6A;
+    font-family:"Trebuchet MS", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    margin-top: -15px;
+}
+#header {
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+
