@@ -2,7 +2,6 @@ body {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     color: #444;
-    /* padding-left: 20pt; */
     background-color: whitesmoke;
 }
 
@@ -23,11 +22,8 @@ body {
 }
 
 #name {
-    /* padding-top: 3pt; */
     padding-left: 20pt;
-    /* text-indent: 0pt; */
     line-height: 0pt;
-    /* text-align: center; */
     color: black;
     font-family:Tahoma, sans-serif;
     font-style: normal;
@@ -42,9 +38,6 @@ body {
 
 #info {
     padding-left: 20pt;
-    /* text-indent: 0pt; */
-    /* line-height: 0pt; */
-    /* text-align: center; */
     color: #6A6A6A;
     font-family:"Trebuchet MS", sans-serif;
     font-style: normal;
@@ -60,13 +53,9 @@ body {
     margin: 0;
 }
 
-li {
+#skill-list li {
     display: inline-block;
     margin: 0 8px;
-}
-
-li::before {
-    content: '';
 }
 
 h2 {
@@ -82,6 +71,11 @@ h5 {
     padding-left: 30pt;
 }
 
+h6 {
+    margin-top: -15px;
+    padding-left: 35pt;
+}
+
 a {
     color: inherit;
     text-decoration:none;
@@ -93,4 +87,18 @@ a {
 
 #linkedin-icon {
     padding-right: 5px;
+}
+
+p {
+    padding-left: 35pt;
+    margin-top: -15px;
+}
+
+ul {
+    margin-top: -15px;
+}
+
+li {
+    margin-left: 20pt;
+    margin-right: 20pt
 }
